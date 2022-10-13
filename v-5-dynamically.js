@@ -6,6 +6,8 @@ function loadPosts(){
       .then (data => displayUsers(data));
       //  console.log(data2)
 }
+
+// how to show all data in 'ul' after data loading 
 function displayUsers(data){
   const ul = document.getElementById("users");
   // 'for of' loop are used to get specific data 
@@ -17,7 +19,7 @@ function displayUsers(data){
       // dynamically a lot of property name are used to  
       li.innerText = `user name : ${user.name}  , user email : ${user.email}  , user Id : ${user.id}
        , address : ${user.address} `;
-       
+
       ul.appendChild(li);
     }
 }
