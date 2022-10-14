@@ -16,9 +16,8 @@ function displayUsers(data){
       // console.log(user.address)
       const li = document.createElement("li"); 
       // li.innerText = "ami $";//user.name;
-      // dynamically a lot of property name are used to  
-      li.innerText = `user name : ${user.name}  , user email : ${user.email}  , user Id : ${user.id}
-       , address : ${user.address} `;
+      // dynamically set a lot of property name are used to  
+      li.innerText = `user name : ${user.name}  , user email : ${user.email}  , user Id : ${user.id} ,  address : ${user.address} `;
 
       ul.appendChild(li);
     }

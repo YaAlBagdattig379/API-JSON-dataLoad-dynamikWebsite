@@ -10,7 +10,7 @@ function  displayPosts(posts){
     const postsContainer = document.getElementById("posts")
     for(const post of posts){
         const div = document.createElement("div");
-        // in here added  class ="posts"
+        // in here added  class style ="posts"
         div.classList.add("posts")
         // set in html tag
         div.innerHTML = `<h2>${post.title}</h2>, <p>${post.id}</p>,
