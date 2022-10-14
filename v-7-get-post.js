@@ -3,7 +3,7 @@
 // json data load 
 function apiPosts(){
     fetch('https://jsonplaceholder.typicode.com/posts')
-      method : 23;
+      method : 23,
       body : JSON.stringify({
         title : 'document.get,
         body : "do",
