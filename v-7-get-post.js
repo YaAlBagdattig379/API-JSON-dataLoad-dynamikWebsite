@@ -1,6 +1,7 @@
 // console.log("hello get and post two things is more required for both of us.")
 
 // json data load 
+/*
 function apiPosts(){
     fetch('https://jsonplaceholder.typicode.com/posts')
       method : 23,
@@ -31,4 +32,11 @@ function  displayPosts(posts){
     }
     // console.log(posts)
 }
-// console.log("hello this is v-6")
+// console.log("hello this is v-6") */
+
+
+/*
+
+console.log("hello this is v-6",20022)
+
+*/
